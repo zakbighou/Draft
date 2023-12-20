@@ -1,5 +1,5 @@
 import java.awt.*;
-import java.awt.image.BufferedImage;
+
 
 public class HitBox {
     private double x;
@@ -38,5 +38,13 @@ public class HitBox {
         return rect1.intersects(rect2);
 
 
+    }
+
+    public int getY() {
+        return (int) y;
+    }
+
+    public int getX() {
+        return (int) x;
     }
 }
